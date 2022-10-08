@@ -1,4 +1,4 @@
-import { RouterConfig } from './route/RoutingConfig';
+import { RouterConfig } from './RoutingConfig';
 
 function App() {
   return (
