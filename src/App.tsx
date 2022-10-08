@@ -1,4 +1,3 @@
-import React from 'react';
 import { RouterConfig } from './route/RoutingConfig';
 
 function App() {
