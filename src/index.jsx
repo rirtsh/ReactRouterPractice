@@ -7,6 +7,6 @@ const root = createRoot(container);
 root.render(
   <React.StrictMode>
     <script src="./bundle.js"></script>
-    <App tab="home"/>
+    <App />
   </React.StrictMode>
 );

@@ -5,9 +5,9 @@ export const Contact = (props) => {
     <>
       <h1>Contactページです</h1>
       <p>props : {props.message}</p>
-      <Link to="/">Homeページに移動</Link>
+      <Link exact to="/">Homeページに移動</Link>
       <br/>
-      <Link to="/about">Aboutページに移動</Link>
+      <Link exact to="/about">Aboutページに移動</Link>
     </>
   );
 };
