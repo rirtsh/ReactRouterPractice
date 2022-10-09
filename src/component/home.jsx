@@ -4,9 +4,9 @@ export const Home = () => {
   return (
     <>
       <h1>Homeページです</h1>
-      <Link exact to="/about">Aboutページに移動</Link>
+      <Link exact to="/ReactRouterPractice/about">Aboutページに移動</Link>
       <br/>
-      <Link exact to="/contact">Contactページに移動</Link>
+      <Link exact to="/ReactRouterPractice/contact">Contactページに移動</Link>
     </>
   );
 };
