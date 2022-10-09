@@ -10,10 +10,10 @@ export const RouterConfig = () => {
       <h1>Hello React Router v6</h1>
       <BrowserRouter>
         <Routes>
-          <Route exact path="/ReactRouterPractice/" element={<Home />} />
-          <Route exact path="/ReactRouterPractice/about" element={<About />} />
-          <Route exact path="/ReactRouterPractice/contact" element={<Contact message="Hello Contact" />} />
-          <Route exact path="*" element={<NotFound />} />
+          <Route path="/ReactRouterPractice/" element={<Home />} />
+          <Route path="/ReactRouterPractice/about" element={<About />} />
+          <Route path="/ReactRouterPractice/contact" element={<Contact message="Hello Contact" />} />
+          <Route path="/*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
     </>
